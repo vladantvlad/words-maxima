@@ -1,0 +1,12 @@
+.selected-word-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 114px);
+  box-sizing: border-box;
+}
+
+.selected-word {
+  font-size: 40px;
+  font-weight: bold;
+}

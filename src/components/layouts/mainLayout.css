@@ -1,0 +1,37 @@
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0px 20px;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header__nav-btn {
+  font-size: 24px;
+  cursor:pointer;
+  gap: 5px;
+}
+
+.header__nav-link {
+  text-decoration: dotted;
+  font-size: 30px;
+  color: rgb(168, 121, 63);
+}
+
+.header__nav-link:hover {
+  text-decoration: underline;
+}
+
+.header__nav-alphabet {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  padding: 20px;
+  min-height: calc(100vh - 74px);
+  box-sizing: border-box;
+}

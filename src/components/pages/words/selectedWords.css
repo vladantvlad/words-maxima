@@ -1,0 +1,22 @@
+.selected-words {
+  display: flex;
+  gap: 0px 40px;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.selected-words__link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.selected-words__link:hover {
+  text-decoration: underline;
+}
+
+.selected-words__right-col,
+.selected-words__left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0px;
+}

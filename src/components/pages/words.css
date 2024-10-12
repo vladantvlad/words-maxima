@@ -1,0 +1,20 @@
+.words {
+  display: flex;
+  justify-content: center;
+}
+
+.words-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0px;
+}
+
+.word {
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.word:hover {
+  text-decoration: underline;
+}
